@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdgeLength="0dp"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    android:background="#C0C069">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Họ và tên"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtHoten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Số điện thoại"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtSDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Email"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Công ty"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtCty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY 1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKey1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY 2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKey2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY 3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKey3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY 4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKey4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY 5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKey5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY 6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKey6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY 7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKey7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY 8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKey8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY SAVE 1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKSave1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY SAVE 2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKSave2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="KEY SAVE 3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtKSave3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Unique 1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtUnique1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Unique 2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtUnique2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Unique 3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtUnique3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Phiên bản OS"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Người dùng"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtNguoidung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Máy tính"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtMaytinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Số lần còn lại"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtSolanCL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Số lần gia hạn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtSoLanGH"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/buttonUp"
+                    android:src="@drawable/uparrow"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <ImageButton
+                    android:id="@+id/buttonDown"
+                    android:src="@drawable/downarrow"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/btnMo"
+               android:text="Mở response"
+               android:layout_width="200dp"
+               android:layout_height="wrap_content" />
+            <Button
+                android:gravity="center"
+                android:id="@+id/btnTao"
+                android:text="Tạo license"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
